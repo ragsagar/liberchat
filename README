@@ -1,5 +1,10 @@
 Bind the server to a port 
 $python chat_server.py localhost 6000
 
-Run the chat client
+To run the group chat client
 $python group_chat.py localhost 6000
+
+To run the private chat client
+$python private_chat.py localhost 6000
+
+Same server can handle both group chat and private chat
